@@ -3,8 +3,6 @@ Distributed Systems Coursework
 
 Project contains 2 Visual studio solutions.  
 
-1 - Client  
-
 Client Commands: 
 
 Talkback Sort <ints> - Returns a sorted array
@@ -20,8 +18,7 @@ Protected Sha1 <Message> - Returns the message encrypted by Sha1
 Protected Sha256 <Message> - Returns the message encrypted by Sha256
 Protected Get - Returns the public key for the server and saves it
 Protected Sign Message - Sends a message to the server for signing and verifies it with the servers public key
-
-Client Features: Talkback, User, Protected
-
-2 - Server  
-Server Features:
+	
+Server:
+A restful API for sorting, talkback, and authentication.
+The server uses entity framework to manage active users and hashes of their API Keys
